@@ -1,0 +1,26 @@
+.corpo {
+  text-align: center;
+  margin: 15px;
+}
+
+:root {
+  --ion-color-silver: #969696;
+  --ion-color-silver-rgb: 150, 150, 150;
+  --ion-color-silver-contrast: #000000;
+  --ion-color-silver-contrast-rgb: 0, 0, 0;
+  --ion-color-silver-shade: #848484;
+  --ion-color-silver-tint: #a1a1a1;
+}
+
+.ion-color-silver {
+  --ion-color-base: var(--ion-color-silver);
+  --ion-color-base-rgb: var(--ion-color-silver-rgb);
+  --ion-color-contrast: var(--ion-color-silver-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-silver-contrast-rgb);
+  --ion-color-shade: var(--ion-color-silver-shade);
+  --ion-color-tint: var(--ion-color-silver-tint);
+}
+
+ion-button {
+    color: var(--ion-color-primary-contrast);
+}
